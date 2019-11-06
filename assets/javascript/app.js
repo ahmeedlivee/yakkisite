@@ -23,7 +23,7 @@ var _app = function ()
     this.titleChanger = function (text, delay)
     {
         text = text ||
-            ['Arzo', 'Arzo', 'Arzo', 'Arzo'];
+            ['Yakki', 'Yakki#9536', 'Yakk1'];
         delay = delay || 2000;
 
         var counter = 0;
