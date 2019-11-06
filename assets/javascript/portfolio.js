@@ -40,17 +40,17 @@ Thanks for:
 
                 {
                     name: 'discord',
-                    link: 'https://discord.gg/674VNA5'
+                    link: 'https://discord.gg/rzf8VMh'
                 },
                 
                 {
                     name: 'youtube',
-                    link: 'https://www.youtube.com/channel/UCY6J8om0uRNYpE2-TgYgNOg?view_as=subscriber'
+                    link: 'https://www.youtube.com/channel/UC2eklza3JmycC825zEPBQPg'
                 },
                 
                 {
-                    name: 'twitter',
-                    link: 'https://twitter.com/thicc_arzo'
+                    name: 'instagram',
+                    link: 'https://www.instagram.com/alex._.gherendi/'
                 }
           
             ];
@@ -192,7 +192,7 @@ Thanks for:
 
             $.getJSON('https://api.ipdata.co/?api-key=test', function (data) {
 
-                writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[arzo.gq]</span>..."], 30, function () {
+                writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[yakki.gq]</span>..."], 30, function () {
 
                 	if (app.skippedIntro)
                 		return;
@@ -209,7 +209,7 @@ Thanks for:
 
                         clearCursor();
 
-                        writeLine(["<i style='color: #F62459'>arzo.gq $$$</i>"], 120, 500, function () {
+                        writeLine(["<i style='color: #F62459'>yakki.gq $$$ produced by arzo.gq</i>"], 120, 500, function () {
 
                             timeouts.push(setTimeout(function () {
 
