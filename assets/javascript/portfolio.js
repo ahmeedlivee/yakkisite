@@ -192,7 +192,7 @@ Thanks for:
 
             $.getJSON('https://api.ipdata.co/?api-key=test', function (data) {
 
-                writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[yakki.gq]</span>..."], 30, function () {
+                writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[yakki.ga]</span>..."], 30, function () {
 
                 	if (app.skippedIntro)
                 		return;
@@ -209,7 +209,7 @@ Thanks for:
 
                         clearCursor();
 
-                        writeLine(["<i style='color: #F62459'>yakki.gq $$$ produced by arzo.gq</i>"], 120, 500, function () {
+                        writeLine(["<i style='color: #F62459'>yakki.ga $$$ produced by arzo.gq</i>"], 120, 500, function () {
 
                             timeouts.push(setTimeout(function () {
 
